@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subrata Paramanik Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">SP.</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="intro-text">
+      <p class="hello">Hello, We're</p>
+      <h1>Profilo <span class="highlight">Web-Group</span></h1>
+      <h3>Aspiring Developer | B.Tech CSE Student</h3>
+      <p class="description">
+        Passionate about building beautiful web experiences and learning the art of software development. Currently exploring Java, Python, and modern web technologies.
+      </p>
+      <p class="quote">
+        *Those who aren't crazy enough to believe they can change the world are the ones who do.*
+      </p>
+      <button class="btn-primary">Let's Talk</button>
+      <button class="btn-secondary" download="Subrata_Paramanik_CV.pdf">Download CV</button>
+      <div class="social-icons">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+    </div>
+    <div class="profile-pic-container">
+      <img src="S1.jpg" alt="Subrata Paramanik" class="profile-pic" />
+    </div>
+    <div class="scroll-down-indicator"></div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-subtitle">Get to know me better</p>
+    <div class="about-content">
+      <div class="about-left">
+        <h3>Who I Am</h3>
+        <p>
+          I'm Subrata Paramanik, a passionate student currently pursuing my B.Tech in Computer Science & Engineering at Govt. Murshidabad Institution of Technology. Expected to graduate in 2028, I'm building a strong foundation in software development and design. My journey in tech is driven by curiosity and creativity. I believe in learning by doing, and I’m constantly exploring new technologies to expand my skillset. From writing my first "Hello World" to building this portfolio, every step has been an exciting adventure.
+        </p>
+      </div>
+      <div class="about-right">
+        <div class="edu-box">
+          <div class="icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <h3>Education</h3>
+          <p>B.Tech In Computer Science & Engineering</p>
+          <p>Govt Murshidabad Institution of Technology (2024 - 2028)</p>
+        </div>
+        <div class="approach-box">
+          <div class="icon">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <h3>My Approach</h3>
+          <p>Learning through experimentation, driven by curiosity, and always eager to collaborate on meaningful projects.</p>
+        </div>
+        <div class="collaboration-box">
+          <div class="icon">
+            <i class="fa-solid fa-hands-holding-child"></i>
+          </div>
+          <h3>Collaboration</h3>
+          <p>I believe great things happen when minds meet. Open to teamwork and learning from others.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2 class="section-title">My Skills</h2>
+    <p class="section-subtitle">Technologies I’m learning and mastering</p>
+    <div class="skills-grid">
+      <!-- Skill Card Template -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-brands fa-java"></i>
+          <h4>Java</h4>
+          <small>Programming</small>
+        </div>
+        <div class="skill-progress-bar">
+          <div class="progress" style="width: 60%;"></div>
+        </div>
+        <small>Proficiency: 60%</small>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-brands fa-python"></i>
+          <h4>Python</h4>
+          <small>Programming</small>
+        </div>
+        <div class="skill-progress-bar">
+          <div class="progress" style="width: 65%;"></div>
+        </div>
+        <small>Proficiency: 65%</small>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-solid fa-c"></i>
+          <h4>C Programming</h4>
+          <small>Programming</small>
+        </div>
+        <div class="skill-progress-bar">
+          <div class="progress" style="width: 60%;"></div>
+        </div>
+        <small>Proficiency: 60%</small>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-solid fa-layer-group"></i>
+          <h4>Web Development</h4>
+          <small>Programming</small>
+        </div>
+        <div class="skill-progress-bar">
+          <div class="progress" style="width: 40%;"></div>
+        </div>
+        <small>Proficiency: 40%</small>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-solid fa-palette"></i>
+          <h4>UI/UX Design</h4>
+          <small>Design</small>
+        </div>
+        <div class="skill-progress-bar">
+          <div class="progress" style="width: 40%;"></div>
+        </div>
+        <small>Proficiency: 40%</small>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-solid fa-cubes-stacked"></i>
+          <h4>Data Structures</h4>
+          <small>Programming</small>
+        </div>
+        <div class="skill-progress-bar">
+          <div class="progress" style="width: 40%;"></div>
+        </div>
+        <small>Proficiency: 40%</small>
+      </div>
+    </div>
+    <p class="current-learning-note">
+      <strong>Currently Learning:</strong> I’m actively building my foundation in these technologies through coursework, online resources, and hands-on projects. Every day is a new opportunity to grow!
+    </p>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-subtitle">Building and learning one project at a time</p>
+
+    <div class="project-card">
+        <div class="project-icon">
+            <i class="fa-solid fa-folder-open"></i>
+      <div class="project-header">
+        <h3>My First Portfolio <small>In Progress</small></h3>
+      </div>
+      <p>
+        This portfolio website marks the beginning of my development journey. Built with modern web technologies, it showcases my learning progress and serves as a foundation that will grow as I learn more.
+      </p>
+      <div class="project-tags">
+        <span class="tag">React</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Tailwind CSS</span>
+      </div>
+    </div>
+
+    <p class="more-projects-note">
+      More projects coming soon! As I continue learning and building, this section will grow with more exciting projects showcasing my skills.
+    </p>
+  </section>
+
+  <section id="learning" class="learning-section">
+    <h2 class="section-title">What I'm Learning to Build</h2>
+    <p class="section-subtitle">Exploring my passion areas and building expertise</p>
+
+    <div class="learning-cards">
+      <div class="learning-card">
+        <div class="learn-header">
+          <i class="fa-solid fa-layer-group"></i>
+          <h4>Web Development</h4>
+        </div>
+        <p>
+          Currently building my foundation in modern web technologies including HTML, CSS, JavaScript, and React. Learning to create responsive, interactive websites with clean code and best practices.
+        </p>
+        <p><strong>Currently Learning:</strong><br/>React, JavaScript, Responsive Design, Frontend Development</p>
+        <a href="#" class="learn-more">Learn more +</a>
+      </div>
+
+      <div class="learning-card">
+        <div class="learn-header">
+          <i class="fa-solid fa-palette"></i>
+          <h4>UI/UX Design</h4>
+        </div>
+        <p>
+          Exploring the principles of user interface and user experience design. Learning to create intuitive, visually appealing designs that put users first and solve real problems.
+        </p>
+        <p><strong>Currently Learning:</strong><br/>User Research, Wireframing, Prototyping, Figma</p>
+        <a href="#" class="learn-more">Learn more +</a>
+      </div>
+    </div>
+
+    <div class="goal-box">
+      <h3>My Goal</h3>
+      <p>
+        I'm on a journey to master web development and UI/UX design, with the goal of creating meaningful digital experiences that make a difference. Every project is a step forward, and I'm excited about the endless possibilities ahead.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">Have a question or want to work together? Let’s connect!</p>
+
+    <div class="contact-content">
+      <div class="contact-info">
+        <h3>Let's Talk</h3>
+        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of these channels.</p>
+
+        <div class="contact-items">
+          <p><i class="fa-solid fa-envelope"></i><strong>Email</strong><br/>subrata20006@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i><strong>Phone</strong><br/>+91 7018202223</p>
+          <p><i class="fa-brands fa-github"></i><strong>GitHub</strong><br/><a href="https://github.com/subrata-rooker" target="_blank" rel="noopener noreferrer">github.com/subrata-rooker</a></p>
+          <p><i class="fa-solid fa-location-dot"></i><strong>Location</strong><br/>West Bengal, India</p>
+        </div>
+      </div>
+
+      <div class="contact-form-container">
+        <form id="contact-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="user_name" required />
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="user_email" required />
+
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn-primary form-submit-btn">Send Message</button>
+        </form>
+        <div id="form-status"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Portfolio Web-group. Built with passion and curiosity.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
