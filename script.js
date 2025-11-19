@@ -5,7 +5,7 @@
 
 // Change photo path here ONLY
 const profilePic = document.querySelector('.profile-pic');
-profilePic.src = 'S1.jpg'; // Replace 'yourphoto.jpg' with your photo filename or URL
+profilePic.src = 'profilo.jpg'; // Replace 'yourphoto.jpg' with your photo filename or URL
 
 // Contact form email sending using EmailJS
 const contactForm = document.getElementById('contact-form');
